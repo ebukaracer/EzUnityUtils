@@ -9,10 +9,9 @@ Efficient File Save-System for Unity Games.
 Drag and drop the downloaded **.unitypackage** to Assets folder and follow the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
 
 ## Features
-- Demo scene
+- Optional Demo scene
 - GUI Window for certain operations
-- Supports file saving
-- Game data saving
+- Supports file/game-data saving
 - Encryption support (aes)
 - Supports custom-type serialisation (newtonsoft-json)
 - Supports method chaining
