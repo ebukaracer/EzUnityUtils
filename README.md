@@ -1,29 +1,27 @@
 # EzSaver 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
 
 Efficient File Save-System for Unity Games.
-- [Download](https://github.com/ebukaracer/EzUnityUtils/releases/download/v1.0.0/EzSaver.unitypackage)
-- [Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
-
-## Installation
-Drag and drop the downloaded **.unitypackage** to Assets folder and follow the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
+- [Download EzSaver.unitypackage](https://github.com/ebukaracer/EzUnityUtils/releases/download/v1.0.0/EzSaver.unitypackage)
+- [EzSaver Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
 
 ## Features
-- Optional Demo scene
-- GUI Window for certain operations
+- Includes a Demo scene
+- Includes an Editor Window for certain operations
 - Supports file/game-data saving
-- Encryption support (aes)
-- Supports custom-type serialisation (newtonsoft-json)
+- Encryption support (AES)
+- Supports custom-type json serialization
 - Supports method chaining
 - *..and much more.*
 
-## Usage Guide
-After properly setting up this package, you're ready to start consuming the APIs:
+## Installation
+Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory and follow the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
 
-### Examples
+## Usage
+*After properly setting up this package, you're ready to start consuming the [APIs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md#ezsaver)*:
 
-Initialise a save-file:
-```
+### Initialize a save-file:
+``` csharp
 internal class Person  
 {  
     public int Age { get; set; }  
@@ -35,55 +33,56 @@ private EzSaver _ezSaver;
 
 private void Awake()  
 {
+	// Loads up a save file
 	_ezSaver = new EzSaver("Save.txt").Load();
 	
-	// Access previously saved contents or use default values assuming not available:
+	// Access previously saved content or use default values assuming not available:
 	_person = _ezSaver.Read("Person", new Person());
 	_highscore = _ezSaver.Read("Highscore", _highscore);
 }
 ```
-Add data to be saved: 
-```
+
+### Update data to be saved: 
+``` csharp
 public void AddScore(int amount)  
 {
 	_highscore += amount;  
 	_person.Age = _highscore;
-	_ezSaver.Write("Person", _person)
 }
 ```
 
-Write save-items to cache storage:
-```
+### Write save-data to temporary storage:
+``` csharp
 _ezSaver  
     .Write("Person", _person)  
     .Write("Highscore", _highscore);
 ```
 
-Commit changes to save-file (important):
-```
-// Find a suitable method to call Commit()
+### Save changes to save-file (📌):
+``` csharp
+// Find a suitable method to call Save() once.
 private void OnDestroy()  
 {
-	_ezSaver.Commit();
+	_ezSaver.Save();
 }
 ```
 
-Remove save-items:
-```
+### Remove save-items:
+``` csharp
 _ezSaver  
     .Clear("Person", _person)  
     .Clear("Highscore", _highscore);
 ```
 
-Delete save-file:
-``` 
-_ezSaver.DeleteFile();;
+### Delete save-file:
+``` csharp
+_ezSaver.DeleteFile();
 ```
 
 ## Dependencies
-- NewtonSoftJson - Bundled with Unity.
+This package depends on **newtonsoft-json; v3.2.1**, simply install from the package manager:
+1. Hit `(+)` and select `Add package by name` 
+2. Paste the package name: `com.unity.nuget.newtonsoft-json` and hit `Add`
 
-## Contribution
-Feel free to open an `issue` If you discovered any bug or feel like something is missing. 
-
-*PS: Kindly, drop a ⭐ if found useful.*
+## Contributing  
+Contributions are welcome! Please open an issue or submit a pull request.
