@@ -1,9 +1,7 @@
 
-# Install Guide
-
 ![Img](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/Screenshot%20(472).png)
 
-## Installation from disk (local)
+### Installation from disk (local)
 - Clone the desired `repo` to your preferred location.
 - Lunch your Unity project.
 - Open `Package Manager`, located under `Windows` drop-down.

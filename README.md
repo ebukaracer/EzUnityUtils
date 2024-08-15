@@ -14,9 +14,7 @@ Level up your development with these streamlined Unity tools and resources.
 ### Side Notes
 The primary focus of this repository is to aid game development speed and avoid reinventing the wheel. While it's primarily focused for my personal reference in future projects, I have decided to make it public and easily accessible for anyone in need of any feature it offers.
 
-Also, none of the packages are officially supported or endorsed by Unity, use at your own risk.
+Also, none of the packages above are officially supported or endorsed by Unity, use at your own risk.
 
 ### Contribution
 Contributions are welcome, especially those that enhance accessibility and usability. Feel free to fork, modify and make pull requests!
-
-*PS: Drop a ⭐ if found useful.*
