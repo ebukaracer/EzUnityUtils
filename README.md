@@ -18,7 +18,7 @@ Efficient File Save-System for Unity Games.
 Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory. You can omit to include the demo project during import. Check out the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
 
 ## Usage
-*After properly setting up this package, you're ready to start consuming the [APIs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md#ezsaver)*:
+*After properly setting up this package, you're ready to start consuming the [APIs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md#public-apis)*:
 
 ### Initialize a save-file:
 ``` csharp

@@ -1,6 +1,6 @@
 
 ## Quick Overview
-Refer to [Examples](https://github.com/ebukaracer/EzUnityUtils/tree/pkg-EzSaver#examples) for quick guide on creating and initializing a save-file in your project scripts.
+Refer to [Usage](https://github.com/ebukaracer/EzUnityUtils/tree/pkg-EzSaver#usage) for quick guide on creating and initializing a save-file in your project scripts.
 
 ## Public APIs
 
