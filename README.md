@@ -2,7 +2,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
 
 Efficient File Save-System for Unity Games.
-- [Download EzSaver.unitypackage](https://github.com/ebukaracer/EzUnityUtils/releases/download/v1.0.0/EzSaver.unitypackage)
+- [Download EzSaver.unitypackage](https://github.com/ebukaracer/EzUnityUtils/releases)
 - [EzSaver Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
 
 ## Features
@@ -15,7 +15,7 @@ Efficient File Save-System for Unity Games.
 - *..and much more.*
 
 ## Installation
-Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory and follow the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
+Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory. You can omit to include the demo project during import. Check out the setup guide [here](https://github.com/ebukaracer/EzUnityUtils/blob/main/SETUPGUIDE.md)
 
 ## Usage
 *After properly setting up this package, you're ready to start consuming the [APIs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md#ezsaver)*:

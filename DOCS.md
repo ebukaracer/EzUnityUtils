@@ -87,12 +87,13 @@ By default, all save-files reside at: `Application.persistentDataPath/EzSaver/Sa
 
 ### Miscellaneous
 - Instead of always creating `new EzSaver(..)`  instances for every class that uses it, you can use the factory class: `EzSaverFactory.Create(..)`  to quickly create an EzSaver instance(one and only) and use that instance across your entire app. 
+- During import you can untick the whole `converters folder` or tick the `converters` you may need.
 - To enable/disable console messages coming from this package locate `EzLogger.cs` script.
 
 ## Editor Window
 Path: `Racer -> EzSaver -> Menu`
 
-![img](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
+![img](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/EzSaver-Images/EzSaverEditorWin.png)
 
 - Every button available in that window has self-explanatory tooltip attached to it, upon hover.
 - The `Save-File:` field only accepts an existing save-file that is available at `Save-File Path:` location.
