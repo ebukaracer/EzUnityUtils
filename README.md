@@ -2,7 +2,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)](http://makeapullrequest.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/LICENSE.md)
 
 Efficient File Save-System for Unity Games.
-- [Download EzSaver.unitypackage](https://github.com/ebukaracer/EzUnityUtils/releases)
+- [Download EzSaver.unitypackage latest](https://github.com/ebukaracer/EzUnityUtils/releases/download/EzSaver-v2.0.0/EzSaver.unitypackage)
 - [EzSaver Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
 
 ## Features
