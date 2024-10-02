@@ -10,6 +10,8 @@ Level up your development with these streamlined Unity tools and resources.
 | [Unity-DirTool](https://github.com/ebukaracer/Unity-DirTool)|Streamlines folder creation/deletion processes in the Unity editor. 
 | [RacerMinimal](https://github.com/ebukaracer/RacerMinimal)|Sleek WebGL template for Unity HTML games. 
 | [Unity-EzSaver](https://github.com/ebukaracer/EzUnityUtils/tree/pkg-EzSaver)|Efficient File Save-System for Unity games.
+| [Unity-SaveManager](https://github.com/ebukaracer/EzUnityUtils/tree/pkg-SaveManager)|Flexible Save Manager for Unity games, supports persistent webgl saving.
+
 
 ### Side Notes
 The primary focus of this repository is to aid game development speed and avoid reinventing the wheel. While it's primarily focused for my personal reference in future projects, I have decided to make it public and easily accessible for anyone in need of any feature it offers.
