@@ -10,10 +10,11 @@
 - **Easy Integration**: Simple API for saving and loading data.
 - **Customizable**: Easily extendable to support additional storage backends.
 - **Data Types**: Supports saving and loading of integers, floats, strings, and Booleans.
-- **Demo**: Includes a Demo scene to help you quickly get started: `Assets/Save Manager/Demo`
+- **Demo**: Includes a Demo scene to help you quickly get started: `Assets/SaveManager/Demo`
 
 ## Installation
-Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory. You can omit to include the demo project during import.
+Drag and drop the downloaded **.unitypackage** above into your Unity project's `Assets` directory. You can omit to include the demo project during import:
+![SM2.png](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/SaveManager-Images/SM2.png)
 
 ## Usage
 
@@ -48,11 +49,12 @@ SaverFactory.Saver.ClearAll();
 ## Note for Users
 > For WebGL builds, ensure this package was imported fully into your project before deploying, the demo scene is still optional by the way.
 
-> Ensure that `ENABLE_LSS` scripting define symbol is added to your project's scripting defining symbols section. Confirm that it is present after this package has been installed, since it adds it automatically during import.
+> Ensure that `ENABLE_LSS` scripting define symbol is added to your project's scripting defining symbols section. Confirm that it is present after this package has been installed, since it adds it automatically during import, otherwise manually add it.
 
 > This package by default, uses `playerprefs` in the unity editor but resolves to browser's `localstorage` after deployment. 
 
-**Save Manager** package was built with WebGL build persistent saving support in mind so as to eliminate the issue of erasing of game data whenever multiple builds to the same project are made. If this isn't a problem for you and you'd want to rely only on `PlayerPrefs` way of saving game data, feel free to import and use only `PlayerPrefsSaver.cs` file as well as the `.asmdef` associated with this package.
+**Save Manager** package was built with WebGL build persistent saving support in mind so as to eliminate the issue of erasing of game data whenever multiple builds to the same project are made. If this isn't a problem for you and you'd want to rely only on `PlayerPrefs` way of saving game data, feel free to import and use only `PlayerPrefsSaver.cs` file as well as the `.asmdef` associated with this package:
+![SM1.png](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/SaveManager-Images/SM1.png)
 
 ## Contributing    
 Contributions are welcome! Please open an issue or submit a pull request.
