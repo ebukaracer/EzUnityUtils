@@ -1,6 +1,6 @@
 # Install Guide
 
-![Img](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/DirTool-Images/Screenshot%20(472).png)
+![Img](https://github.com/ebukaracer/ebukaracer/blob/ebukaracer-resources/EzUnityUtils-Images/UPM1.png)
 
 ### Installation from disk (local)
 - Clone the desired `repo` to your preferred location.
