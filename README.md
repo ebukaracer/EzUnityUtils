@@ -3,7 +3,7 @@
 
 Efficient File Save-System for Unity Games.
 - [Download EzSaver.unitypackage latest](https://github.com/ebukaracer/EzUnityUtils/releases/download/EzSaver-v2.0.0/EzSaver.unitypackage)
-- [EzSaver Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
+- [Read EzSaver Docs](https://github.com/ebukaracer/EzUnityUtils/blob/pkg-EzSaver/DOCS.md)
 
 ## Features
 - Includes a Demo scene
@@ -80,7 +80,7 @@ _ezSaver.DeleteFile();
 ```
 
 ## Dependencies
-This package depends on **newtonsoft-json; v3.2.1**, simply install from the package manager:
+This package depends on **newtonsoft-json; v3.2.1**, kindly install from the unity package manager:
 1. Hit `(+)` and select `Add package by name` 
 2. Paste the package name: `com.unity.nuget.newtonsoft-json` and hit `Add`
 
